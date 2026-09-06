@@ -1,10 +1,10 @@
 # 🐍 Python Learning Journey
 
-A repository documenting my journey learning **Python**, with a focus on understanding the language idiomatically and applying it to **software engineering, automation, data, and AI**.
+This repository documents my journey learning **Python**, with a focus on understanding the language idiomatically and applying its concepts to **software engineering, automation, data, and AI**.
 
 I'm an experienced backend software engineer primarily working with **Node.js, TypeScript, PostgreSQL, GraphQL, and cloud environments**.
 
-Rather than learning programming from scratch, my goal here is to understand **how Python developers solve problems**, explore the Python ecosystem, and apply the language to real-world projects.
+I'm not learning programming from scratch. My goal is to understand **how Python developers think and solve problems**, become familiar with the Python ecosystem, and gradually apply what I learn to real-world software engineering and AI projects.
 
 ---
 
@@ -12,7 +12,9 @@ Rather than learning programming from scratch, my goal here is to understand **h
 
 * Write clean and idiomatic Python
 * Understand Python's core language features and conventions
-* Explore Python tooling, testing, and project structure
+* Become comfortable with Python's standard library
+* Explore typing and modern Python development practices
+* Learn Python testing and tooling
 * Build automation and backend applications
 * Work with data processing and analysis
 * Explore AI, LLMs, and agent-based applications
@@ -20,106 +22,120 @@ Rather than learning programming from scratch, my goal here is to understand **h
 
 ---
 
-## 📂 Repository Structure
+## 🧩 Exercism
+
+I'm using the [Python Track on Exercism](https://exercism.org/tracks/python) as the main source of structured exercises for this repository.
+
+Each directory represents an exercise completed during the learning journey:
 
 ```text
 python-learning/
-├── exercism/
-│   └── ...
-├── experiments/
-│   └── ...
-├── projects/
-│   └── ...
+├── hello-world/
+├── ...
 └── README.md
 ```
 
-### 🧩 `exercism`
+The goal isn't simply to solve the challenges, but to understand **Python-specific concepts, conventions, and idiomatic solutions**.
 
-Solutions from the [Python Track on Exercism](https://exercism.org/tracks/python).
-
-The focus isn't only on solving each challenge, but on understanding Python-specific concepts and writing increasingly idiomatic solutions.
-
----
-
-### 🧪 `experiments`
-
-Small, focused experiments used to explore Python concepts and libraries.
-
-Topics may include:
-
-* Data structures and comprehensions
-* Type hints
-* Iterators and generators
-* Decorators
-* Context managers
-* Error handling
-* Async programming
-* Testing with pytest
-* File and data processing
-* APIs and HTTP clients
-* Python tooling and dependency management
-
----
-
-### 🚀 `projects`
-
-Larger projects where concepts explored in exercises and experiments are applied to real-world problems.
-
-Areas I'm particularly interested in exploring:
-
-* Backend APIs
-* Automation
-* Data processing
-* AI-powered applications
-* LLM integrations
-* AI agents and workflows
+As I progress, solutions may be revisited and improved as my understanding of the language evolves.
 
 ---
 
 ## 🧠 Learning Roadmap
 
-### Python Fundamentals
+### Fundamentals
 
 * [ ] Python syntax and conventions
-* [ ] Lists, tuples, sets, and dictionaries
+* [ ] Variables and data types
 * [ ] Functions
+* [ ] Lists and tuples
+* [ ] Sets and dictionaries
 * [ ] Comprehensions
 * [ ] Modules and packages
 * [ ] Exception handling
 
-### Intermediate Python
+### Idiomatic Python
 
-* [ ] Object-oriented Python
-* [ ] Type hints
+* [ ] Unpacking
+* [ ] Comprehensions
+* [ ] `enumerate` and `zip`
 * [ ] Iterators and generators
 * [ ] Decorators
 * [ ] Context managers
-* [ ] Testing with pytest
-* [ ] Virtual environments and dependency management
+* [ ] Type hints
+* [ ] Dataclasses
+* [ ] Python data model
+
+### Testing & Quality
+
+* [ ] Unit testing
+* [ ] pytest
+* [ ] Fixtures
+* [ ] Mocking
+* [ ] Test coverage
+* [ ] Linting and formatting
+* [ ] Static type checking
+* [ ] Project and dependency management
 
 ### Advanced Python
 
+* [ ] Object-oriented Python
+* [ ] Functional programming concepts
 * [ ] Async / Await
 * [ ] Concurrency
+* [ ] Multiprocessing
 * [ ] Performance and profiling
 * [ ] Packaging
 * [ ] Application architecture
 
+### Backend & Automation
+
+* [ ] HTTP clients
+* [ ] REST APIs
+* [ ] PostgreSQL
+* [ ] Database transactions
+* [ ] Background jobs
+* [ ] CLI applications
+* [ ] File processing
+* [ ] Web automation
+* [ ] Structured logging
+
 ### Data & AI
 
+* [ ] Jupyter
 * [ ] NumPy
 * [ ] Pandas
-* [ ] Jupyter
 * [ ] Data analysis
 * [ ] Machine learning fundamentals
 * [ ] LLM APIs
+* [ ] Structured outputs
 * [ ] Retrieval-Augmented Generation (RAG)
 * [ ] AI agents
-* [ ] AI workflows and tool integration
+* [ ] Tool integration
+* [ ] AI workflows
 
 ---
 
-## 🛠️ Technologies & Tools
+## 🔬 Beyond Exercism
+
+Exercism is the starting point, not the end goal.
+
+As I become more comfortable with Python, I'll use separate repositories for experiments and larger projects involving topics such as:
+
+* Backend services
+* Automation
+* Data processing
+* Machine learning
+* LLM integrations
+* RAG
+* AI agents
+* AI-powered applications
+
+These projects will focus on applying Python to real-world software engineering problems rather than isolated coding exercises.
+
+---
+
+## 🛠️ Stack
 
 <p>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="45" title="Python" alt="Python" />
@@ -135,18 +151,12 @@ Areas I'm particularly interested in exploring:
 
 ---
 
-## 📈 Progress
+## 📚 Resources
 
-This repository will evolve as I progress through exercises, experiments, and projects.
-
-The objective isn't to collect solved challenges, but to document the transition from being experienced in other ecosystems to becoming comfortable writing **idiomatic, production-quality Python**.
-
----
-
-## 🔗 Learning Profiles
-
-* [Exercism](https://exercism.org/)
-* [Kaggle](https://www.kaggle.com/)
+* [Exercism — Python Track](https://exercism.org/tracks/python)
+* [Official Python Tutorial](https://docs.python.org/3/tutorial/)
+* [Python Documentation](https://docs.python.org/3/)
+* [Kaggle Learn](https://www.kaggle.com/learn)
 
 ---
 
